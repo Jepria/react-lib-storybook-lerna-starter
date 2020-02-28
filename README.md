@@ -1,8 +1,8 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# React application starter with ui library in Lerna monorepo
+# Starter for [React](https://reactjs.org/) library with [Storybook](https://storybook.js.org/) and example app in [Lerna](https://lerna.js.org/) monorepo
 
-[React](https://reactjs.org/) application starter with ui library in [Lerna](https://lerna.js.org/) monorepo
+ application starter with ui library in  monorepo
 
 ---
 
