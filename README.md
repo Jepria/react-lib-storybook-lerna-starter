@@ -2,8 +2,6 @@
 
 # Starter for [React](https://reactjs.org/) library with [Storybook](https://storybook.js.org/) and example app in [Lerna](https://lerna.js.org/) monorepo
 
- application starter with ui library in  monorepo
-
 ---
 
 ## Feature tags
@@ -14,28 +12,20 @@
 - react
 - spa
 - starter
+- storybook
 - uilib
 
 ---
 
 ## Direct ancestors
 
-[Minimalistic JS library development environment on Lerna](https://github.com/softspiders/lerna-lib-app-starter)
-
-## Direct descendants
-
-[lerna-react-app-uilib-war-starter](https://github.com/softspiders/lerna-react-app-uilib-war-starter)
-
+[- storybook](https://github.com/softspiders/lerna-react-app-uilib-starter)
 
 ---
 
-## Inspired by
-
-[Antony Budianto](https://github.com/antonybudianto)'s [react-lib-starter](https://github.com/antonybudianto/react-lib-starter)
-
 ## Authors
 
-[Alexander Lapygin](https://github.com/AlexanderLapygin) - Adapting the [react-lib-starter](https://github.com/antonybudianto/react-lib-starter) to *Soft Spiders*
+[Serg Rajab](https://github.com/SergRajab)
 
 ---
 
