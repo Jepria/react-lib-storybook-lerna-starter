@@ -10,7 +10,6 @@
 - build
 - lerna
 - react
-- spa
 - starter
 - storybook
 - uilib
