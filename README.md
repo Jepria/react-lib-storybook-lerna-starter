@@ -16,9 +16,13 @@
 
 ---
 
-## Direct ancestors
+## Parents
 
-[-***storybook***: lerna-react-app-uilib-starter](https://github.com/softspiders/lerna-react-app-uilib-starter)
+[-**storybook**: lerna-react-app-uilib-starter](https://github.com/softspiders/lerna-react-app-uilib-starter)
+
+## Children
+
+[**+storyshot**](https://github.com/softspiders/lerna-react-ts-storybook-storyshot-starter)
 
 ---
 
