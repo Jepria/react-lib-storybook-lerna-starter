@@ -22,7 +22,7 @@
 
 ## Children
 
-[**+storyshot**](https://github.com/softspiders/lerna-react-ts-storybook-storyshot-starter)
+[**+jest, storyshot**](https://github.com/softspiders/lerna-react-ts-storybook-storyshot-starter)
 
 ---
 
