@@ -39,6 +39,13 @@
    # yarn is fine too
    npm i
    ```
+
+then
+
+   ```sh
+   npm run bootstrap
+   ```
+   
 3. To build all
    ```sh
    npm run build:app
@@ -46,10 +53,6 @@
    ```
    
 4. To work with lib
-   ```sh
-   npm run bootstrap
-   ```
-   This will bootstrap, link between app and lib
    
    ```sh
    npm run build:lib
