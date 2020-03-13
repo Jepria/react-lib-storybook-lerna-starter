@@ -18,13 +18,13 @@
 
 ## Direct ancestors
 
-[-storybook: lerna-react-app-uilib-starter](https://github.com/softspiders/lerna-react-app-uilib-starter)
+[-storybook](https://github.com/softspiders/lerna-react-app-uilib-starter)
 
 ---
 
 ## Direct descendants
 
-[+jest, storyshot: lerna-react-ts-storybook-storyshot-starter](https://github.com/softspiders/lerna-react-ts-storybook-storyshot-starter)
+[+jest, storyshot](https://github.com/softspiders/lerna-react-ts-storybook-storyshot-starter)
 
 ---
 
@@ -48,7 +48,6 @@
    ```
    
 4. To work with lib
-   Run bootstrap
    ```sh
    npm run bootstrap
    ```
