@@ -20,6 +20,7 @@
     "bootstrap": "lerna bootstrap",
     "start:dev:lib": "cd packages/example-lib && npm start --stream",
     "start:dev:app": "cd packages/example-app && npm start --stream",
+    "start:dev:sb": "cd packages/sb && npm run storybook --stream",
     "clean": "lerna clean",
     "clean:build": "lerna exec -- rimraf lib",
     "build": "lerna run build",
