@@ -16,15 +16,13 @@
 
 ---
 
-## Direct ancestors
+## Parents
 
-[-storybook](https://github.com/softspiders/lerna-react-app-uilib-starter)
+[-**storybook**](https://github.com/softspiders/lerna-react-app-uilib-starter)
 
----
+## Children
 
-## Direct descendants
-
-[+jest, storyshot](https://github.com/softspiders/lerna-react-ts-storybook-storyshot-starter)
+[**+jest, storyshot**](https://github.com/softspiders/lerna-react-ts-storybook-storyshot-starter)
 
 ---
 
