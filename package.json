@@ -1,37 +1,22 @@
 {
-  "name": "lerna-react-app-uilib-starter",
+  "name": "lerna-react-ts-storybook-storyshot-starter",
   "version": "1.0.0",
-  "description": "React application starter with ui library in Lerna monorepo",
+  "description": "Starter for Monorepos: Lerna, TypeScript, CRA and Storybook",
   "main": "index.js",
-  "private": true,
-  "repository": "https://github.com/softspiders/lerna-react-lib-starter",
-  "keywords": [
-    "react",
-    "lerna",
-    "lib",
-    "monorepo",
-    "softspiders",
-    "starter",
-    "template"
-  ],
-  "author": "Alexander Lapygin <alexanderlapygin@gmail.com>",
+  "repository": "https://github.com/softspider/lerna-react-ts-storybook-storyshot-starter",
+  "author": "Alexander Lapygin",
   "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.18.3"
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "start:dev:lib": "cd packages/example-lib && npm start --stream",
-    "start:dev:app": "cd packages/example-app && npm start --stream",
-    "start:dev:sb": "cd packages/sb && npm run storybook --stream",
-    "clean": "lerna clean",
-    "clean:build": "lerna exec -- rimraf lib",
-    "build": "lerna run build",
-    "test": "exit 0"
-  },
-  "bugs": {
-    "url": "https://github.com/softspiders/lerna-react-lib-starter/issues"
-  },
-  "homepage": "https://github.com/softspiders/lerna-react-lib-starter/blob/master/README.md",
-  "devDependencies": {
-    "lerna": "^2.11.0",
-    "rimraf": "^3.0.1"
+    "story": "lerna run story --stream",
+    "start": "lerna run start --stream",
+    "test": "cd packages/uilib && npm run test",
+    "build:lib": "lerna run libbuild --stream",
+    "build:app": "npm run bootstrap && npm run build:lib && cd ./packages/cra-app && npm run build",
+    "clean": "lerna clean"
   }
 }

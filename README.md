@@ -22,6 +22,12 @@
 
 ---
 
+## Direct descendants
+
+[+jest, storyshot: lerna-react-ts-storybook-storyshot-starter](https://github.com/softspiders/lerna-react-ts-storybook-storyshot-starter)
+
+---
+
 ## Authors
 
 [Serg Rajab](https://github.com/SergRajab)
@@ -35,23 +41,31 @@
    # yarn is fine too
    npm i
    ```
-3. Run bootstrap
+3. To build all
+   ```sh
+   npm run build:app
+   npm start
+   ```
+   
+4. To work with lib
+   Run bootstrap
    ```sh
    npm run bootstrap
    ```
+   This will bootstrap, link between app and lib
+   
+   ```sh
+   npm run build:lib
+   npm run story
+   ```
+   This will start storybook
 
-   This will bootstrap and link between app and lib
 4. Now, it's ready!
 
 ## Dev flow
-1. Run start
-   ```sh
-   npm run start:dev:lib
-   npm run start:dev:app
-   npm run start:dev:sb
-   ```
-2. Try changing the lib, it should reflect the changes directly
-3. Now, you can start developing your React library!
+
+1. Try changing the lib, it should reflect the changes directly
+2. Now, you can start developing your React library!
 
 ---
 
