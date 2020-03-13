@@ -18,7 +18,7 @@
 
 ## Parents
 
-[-**storybook**](https://github.com/softspiders/lerna-react-app-uilib-starter)
+[**-storybook**](https://github.com/softspiders/lerna-react-app-uilib-starter)
 
 ## Children
 
