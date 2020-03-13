@@ -1,6 +1,6 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# Starter for [React](https://reactjs.org/) library with [Storybook](https://storybook.js.org/) and example app in [Lerna](https://lerna.js.org/) monorepo
+# Starter for *React* library on *TypeScript* with *Storybook* and example app in *Lerna*
 
 ---
 
