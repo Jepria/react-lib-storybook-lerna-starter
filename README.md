@@ -40,7 +40,7 @@
    npm i
    ```
 
-then
+   then
 
    ```sh
    npm run bootstrap
