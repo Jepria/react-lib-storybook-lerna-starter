@@ -12,13 +12,14 @@
 - react
 - starter
 - storybook
+- typescript
 - uilib
 
 ---
 
 ## Parents
 
-[**-storybook**](https://github.com/softspiders/lerna-react-app-uilib-starter)
+[**-storybook, typescript**](https://github.com/softspiders/lerna-react-app-uilib-starter)
 
 ## Children
 
